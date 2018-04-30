@@ -1,0 +1,10 @@
+"use strict";
+exports.__esModule = true;
+var likes_1 = require("./likes");
+var countOfLikes = 154;
+var postLikes = new likes_1.Likes(countOfLikes, false);
+postLikes.theStatus();
+postLikes.buttonClicked();
+postLikes.theStatus();
+postLikes.buttonClicked();
+postLikes.theStatus();
